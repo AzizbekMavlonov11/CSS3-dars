@@ -1,0 +1,165 @@
+body{
+    background-color: #c8e9f0;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #ffffff;
+}
+img{
+    margin:15px 25px;
+    width: 200px;
+    padding:15px 70px;
+    position: absolute;
+    bottom: 830px;
+    left: 100px;
+
+}
+
+
+.text-block-item{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+}
+.navbar-item{
+    display: inline-block;
+    padding: 24px 10px;
+}
+.navbar-item a{
+    color: #808080;
+    text-decoration: none;
+}
+
+.drop-item:after{
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-image: url("../rasmlar/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+    transform: rotate(270deg);
+}
+.drop-item2:before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-image: url("../rasmlar/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+    transform: rotate(90deg)
+}
+.navbar-item{
+    position: relative;
+}
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: #f1f1f1;
+    display: none;
+}
+.navbar-item:hover > .drop-menu{
+    display: block;
+}
+.text-block-item:after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../rasmlar/12.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.fix{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    line-height: 50px;
+    background-image: url("../rasmlar/13.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotate(360deg);
+    text-decoration: none;
+}
+.fix:focus{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #28a2a4;
+    border-radius: 5%;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    line-height: 50px;
+    background-image: url("../rasmlar/13.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x:10px;
+    background-position-y:10px;
+    transform: rotate(360deg);
+}
+.fix2{
+    margin-left: 10px;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    display: none;
+    color: black;
+}
+p{
+    padding-top: 150px;
+    text-decoration: none;
+}
+.drop-menu{
+    position: absolute;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: #f1f1f1;
+    display: none;
+}
+.navbar-item{
+    position: relative;
+}
+.navbar-item:hover > .drop-menu{
+    display: block;
+}
+.drop-item:hover > .drop-menu{
+    display: block;
+}
+.drop-item > .drop-menu{
+    left: 100%;
+    top: 0;
+}
+.drop-item2 > .drop-menu{
+    right: 100%;
+    top: 0;
+}
+
